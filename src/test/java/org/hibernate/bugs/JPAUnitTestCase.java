@@ -31,13 +31,13 @@ public class JPAUnitTestCase {
 	}
 
 	@Test
-	public void hhhTest_works() {
+	public void hhh14130_test_works() {
 		createEMF(null);
 		testEntityCanBeFoundWhereInIds();
 	}
 
 	@Test
-	public void hhhTest_fails() {
+	public void hhh14130_test_fails() {
 		createEMF(Collections.singletonMap("hibernate.criteria.literal_handling_mode", "BIND"));
 		testEntityCanBeFoundWhereInIds();
 	}
